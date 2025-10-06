@@ -98,7 +98,7 @@ const LoginPage = ({ onSwitchToSignup }) => {
                 <span>Authenticating...</span>
               </div>
             ) : (
-              '🔓 Login to Your Journey'
+              ' Login to Your Journey'
             )}
           </Button>
         </form>
@@ -109,7 +109,7 @@ const LoginPage = ({ onSwitchToSignup }) => {
             onClick={onSwitchToSignup}
             className="w-full py-3 px-6 rounded-xl font-semibold transition-all duration-200 bg-gradient-to-r from-red-400 to-red-600 text-white hover:from-red-500 hover:to-red-700 dark:from-red-600 dark:to-red-800 dark:hover:from-red-700 dark:hover:to-red-900 shadow-lg hover:shadow-xl"
           >
-            🌟 Start Your Pokémon Journey
+             Start Your Pokémon Journey
           </button>
         </div>
       </div>
